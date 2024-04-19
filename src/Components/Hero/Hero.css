@@ -1,0 +1,172 @@
+.Bg_color {
+    position: relative;
+    background: rgb(230, 230, 230);
+    width: 100%;
+    height: 850px;
+}
+
+.apple_icon {
+    position: absolute;
+    font-size: 50px;
+    color: rgb(14, 14, 69);
+    text-align: center;
+}
+
+.samsung_icon {
+    position: absolute;
+    bottom: 0;
+}
+
+.mi_icon {
+    position: absolute;
+    left: 500px;
+    right: 740px;
+    top: -50px;
+    bottom: 675px;
+}
+
+.Oppo_icon {
+    position: absolute;
+    left: 620px;
+    right: 500px;
+    top: 650px;
+    bottom: -30px;
+}
+
+.iphone {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    right: 0;
+    bottom: 0;
+}
+
+.hero_text_content_one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 225px;
+}
+
+.hero_text_content_one p {
+    color: rgb(33, 37, 41);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    text-align: left;
+}
+
+.hero_text_content_one span {
+    color: rgb(245, 62, 50);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    text-align: left;
+}
+
+.hero_text_content_two h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 68px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    max-width: 525px;
+    margin-top: 13px;
+}
+
+.hero_text_content_two p {
+    color: rgb(122, 122, 122);
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.25px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    max-width: 488px;
+    margin-top: 20px;
+}
+
+.hero_from {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.hero_from input {
+    border-radius: 50px 0px 0px 50px;
+    height: 68px;
+    padding-left: 15px;
+    border: none;
+    width: 292px;
+}
+
+.hero_from button {
+    position: absolute;
+    border-radius: 50px;
+    background: rgb(59, 183, 126);
+    padding: 22px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    left: 260px;
+}
+
+.hero_from input:active {
+    border: none;
+    border-color: white;
+}
+
+.hero_card_flex{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    top: -60px;
+}
+
+.hero_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    width: 140px;
+    padding: 13px 20px;
+}
+
+.close_btn {
+    font-size: 20px;
+    color: rgb(122, 123, 123);
+}
+
+.hero_card p {
+    color: rgb(37, 61, 78);
+    font-family: "poppins";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+
+
+.flex-items{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
